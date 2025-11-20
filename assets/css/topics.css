@@ -1,0 +1,55 @@
+/* Specific styles for topic listing pages (grammar-topics.html, vocabulary-topics.html) */
+
+.topic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+    padding-top: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.topic-card {
+    background-color: var(--bg-white);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px var(--shadow-light);
+    padding: var(--spacing-lg);
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.topic-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.topic-card h2 {
+    font-family: var(--font-heading);
+    font-size: 1.9rem;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-sm);
+}
+
+.topic-card p {
+    font-size: 1.1rem;
+    color: var(--light-text-color);
+    margin-bottom: var(--spacing-md);
+    flex-grow: 1;
+}
+
+.topic-card .btn-secondary {
+    width: auto;
+    margin-top: auto;
+}
+
+/* Responsive adjustments for topic cards */
+@media (max-width: 768px) {
+    .topic-grid {
+        grid-template-columns: 1fr;
+    }
+}
