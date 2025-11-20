@@ -1,0 +1,167 @@
+{
+    "academic-words": {
+        "name": "Academic Words",
+        "quizzes": [
+            {
+                "id": "academic-q1",
+                "question": "What does 'ubiquitous' mean?",
+                "options": [
+                    "Rarely seen",
+                    "Found everywhere",
+                    "Unique and special",
+                    "Difficult to understand"
+                ],
+                "correctAnswerIndex": 1
+            },
+            {
+                "id": "academic-q2",
+                "question": "Choose the best synonym for 'ameliorate'.",
+                "options": [
+                    "Worsen",
+                    "Improve",
+                    "Complicate",
+                    "Destroy"
+                ],
+                "correctAnswerIndex": 1
+            },
+            {
+                "id": "academic-q3",
+                "question": "Which word means 'to express strong disapproval'?",
+                "options": [
+                    "Applaud",
+                    "Commend",
+                    "Deprecate",
+                    "Sanction"
+                ],
+                "correctAnswerIndex": 2
+            }
+        ],
+        "flashcards": [
+            {
+                "id": "academic-f1",
+                "front": "Paradigm",
+                "back": "A typical example or pattern of something; a model."
+            },
+            {
+                "id": "academic-f2",
+                "front": "Ephemeral",
+                "back": "Lasting for a very short time."
+            },
+            {
+                "id": "academic-f3",
+                "front": "Cogent",
+                "back": "(Of an argument or case) clear, logical, and convincing."
+            }
+        ]
+    },
+    "literary-terms": {
+        "name": "Literary Terms",
+        "quizzes": [
+            {
+                "id": "literary-q1",
+                "question": "What is 'personification'?",
+                "options": [
+                    "The use of an object to represent an idea.",
+                    "Giving human qualities to inanimate objects or animals.",
+                    "An exaggeration for emphasis.",
+                    "A comparison using 'like' or 'as'."
+                ],
+                "correctAnswerIndex": 1
+            },
+            {
+                "id": "literary-q2",
+                "question": "Which term describes a contrast between what is said and what is actually meant?",
+                "options": [
+                    "Metaphor",
+                    "Simile",
+                    "Irony",
+                    "Allusion"
+                ],
+                "correctAnswerIndex": 2
+            },
+            {
+                "id": "literary-q3",
+                "question": "A 'foil' character typically: ",
+                "options": [
+                    "Acts as the protagonist.",
+                    "Is an inanimate object.",
+                    "Contrasts with another character to highlight particular qualities.",
+                    "Provides comic relief."
+                ],
+                "correctAnswerIndex": 2
+            }
+        ],
+        "flashcards": [
+            {
+                "id": "literary-f1",
+                "front": "Alliteration",
+                "back": "The occurrence of the same letter or sound at the beginning of adjacent or closely connected words."
+            },
+            {
+                "id": "literary-f2",
+                "front": "Oxymoron",
+                "back": "A figure of speech in which apparently contradictory terms appear in conjunction (e.g., 'jumbo shrimp')."
+            },
+            {
+                "id": "literary-f3",
+                "front": "Foreshadowing",
+                "back": "A literary device in which a writer gives an advance hint of what is to come later in the story."
+            }
+        ]
+    },
+    "synonyms-antonyms": {
+        "name": "Synonyms & Antonyms",
+        "quizzes": [
+            {
+                "id": "syn-ant-q1",
+                "question": "What is a synonym for 'benevolent'?",
+                "options": [
+                    "Cruel",
+                    "Kind",
+                    "Selfish",
+                    "Mischievous"
+                ],
+                "correctAnswerIndex": 1
+            },
+            {
+                "id": "syn-ant-q2",
+                "question": "What is an antonym for 'proficient'?",
+                "options": [
+                    "Skilled",
+                    "Expert",
+                    "Inept",
+                    "Capable"
+                ],
+                "correctAnswerIndex": 2
+            },
+            {
+                "id": "syn-ant-q3",
+                "question": "Which word is a synonym for 'elucidate'?",
+                "options": [
+                    "Confuse",
+                    "Obscure",
+                    "Clarify",
+                    "Complicate"
+                ],
+                "correctAnswerIndex": 2
+            }
+        ],
+        "flashcards": [
+            {
+                "id": "syn-ant-f1",
+                "front": "Synonym: Abundant",
+                "back": "Plentiful, Ample"
+            },
+            {
+                "id": "syn-ant-f2",
+                "front": "Antonym: Cursory",
+                "back": "Thorough, Detailed"
+            },
+            {
+                "id": "syn-ant-f3",
+                "front": "Synonym: Mitigate",
+                "back": "Alleviate, Lessen"
+            }
+        ]
+    }
+}
