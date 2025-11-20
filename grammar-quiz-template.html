@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Exam Prep - Grammar Quiz</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/quiz-flashcard.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">English Prep</a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="grammar-topics.html">Grammar</a>
+                <a href="vocabulary-topics.html">Vocabulary</a>
+                <a href="about.html">About</a>
+            </nav>
+            <button class="hamburger-menu" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container quiz-flashcard-page">
+        <section class="topic-header-section">
+            <h1 id="topic-title">Grammar Topic</h1>
+            <div class="progress-display">
+                <p>Quiz Progress: <span id="quiz-progress-text">0%</span></p>
+                <div class="progress-bar-container"><div id="quiz-progress-bar" class="progress-bar"></div></div>
+                <p>Flashcard Progress: <span id="flashcard-progress-text">0/0 learned</span></p>
+            </div>
+        </section>
+
+        <section class="mode-selector">
+            <button id="quiz-mode-btn" class="btn btn-secondary active">Quiz Mode</button>
+            <button id="flashcard-mode-btn" class="btn btn-secondary">Flashcard Mode</button>
+        </section>
+
+        <section id="quiz-section" class="quiz-flashcard-content">
+            <div id="quiz-question-container" class="quiz-question-container">
+                <p class="question-number"></p>
+                <p class="question-text"></p>
+                <div class="options-container"></div>
+                <div class="feedback-message"></div>
+                <button id="next-question-btn" class="btn btn-primary">Next Question</button>
+            </div>
+            <div id="quiz-results-container" class="quiz-results-container hidden">
+                <h2>Quiz Results</h2>
+                <p>Your Score: <span id="final-score"></span></p>
+                <button id="review-quiz-btn" class="btn btn-secondary">Review Answers</button>
+                <button id="restart-quiz-btn" class="btn btn-primary">Restart Quiz</button>
+            </div>
+        </section>
+
+        <section id="flashcard-section" class="quiz-flashcard-content hidden">
+            <div class="flashcard-container">
+                <div class="flashcard" id="flashcard">
+                    <div class="flashcard-front" id="flashcard-front"></div>
+                    <div class="flashcard-back" id="flashcard-back"></div>
+                </div>
+                <div class="flashcard-navigation">
+                    <button id="prev-card-btn" class="btn btn-secondary">Previous</button>
+                    <button id="flip-card-btn" class="btn btn-primary">Flip Card</button>
+                    <button id="next-card-btn" class="btn btn-secondary">Next</button>
+                </div>
+                <div class="flashcard-actions">
+                    <button id="mark-learned-btn" class="btn btn-secondary">Mark as Learned</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 English Prep. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/local-storage-manager.js"></script>
+    <script src="assets/js/topic-loader.js"></script>
+    <script src="assets/js/quiz-logic.js"></script>
+    <script src="assets/js/flashcard-logic.js"></script>
+</body>
+</html>
