@@ -1,0 +1,167 @@
+{
+    "tenses": {
+        "name": "Tenses",
+        "quizzes": [
+            {
+                "id": "tenses-q1",
+                "question": "Which sentence uses the simple past tense correctly?",
+                "options": [
+                    "She is eating an apple.",
+                    "They will visit Paris next year.",
+                    "He walked to school yesterday.",
+                    "I have finished my homework."
+                ],
+                "correctAnswerIndex": 2
+            },
+            {
+                "id": "tenses-q2",
+                "question": "Identify the future continuous tense: 'By this time tomorrow, I ____ on a beach.'",
+                "options": [
+                    "will lie",
+                    "will be lying",
+                    "am lying",
+                    "lied"
+                ],
+                "correctAnswerIndex": 1
+            },
+            {
+                "id": "tenses-q3",
+                "question": "Which sentence is in the present perfect continuous tense?",
+                "options": [
+                    "They played football.",
+                    "She has been studying for hours.",
+                    "He reads a book every night.",
+                    "We were watching a movie."
+                ],
+                "correctAnswerIndex": 1
+            }
+        ],
+        "flashcards": [
+            {
+                "id": "tenses-f1",
+                "front": "Simple Present Use",
+                "back": "Habitual actions, general truths, scheduled events (e.g., 'The sun rises in the east.')"
+            },
+            {
+                "id": "tenses-f2",
+                "front": "Past Perfect Formation",
+                "back": "Had + Past Participle (e.g., 'He had eaten before I arrived.')"
+            },
+            {
+                "id": "tenses-f3",
+                "front": "Future Simple vs. Going To",
+                "back": "Will for spontaneous decisions/predictions; Going to for plans/intentions/evidence-based predictions."
+            }
+        ]
+    },
+    "prepositions": {
+        "name": "Prepositions",
+        "quizzes": [
+            {
+                "id": "prepositions-q1",
+                "question": "She is good ____ playing the piano.",
+                "options": [
+                    "at",
+                    "on",
+                    "in",
+                    "for"
+                ],
+                "correctAnswerIndex": 0
+            },
+            {
+                "id": "prepositions-q2",
+                "question": "The book is ____ the table.",
+                "options": [
+                    "in",
+                    "on",
+                    "at",
+                    "under"
+                ],
+                "correctAnswerIndex": 1
+            },
+            {
+                "id": "prepositions-q3",
+                "question": "He arrived ____ London ____ 5 PM.",
+                "options": [
+                    "at, in",
+                    "in, at",
+                    "on, at",
+                    "to, at"
+                ],
+                "correctAnswerIndex": 1
+            }
+        ],
+        "flashcards": [
+            {
+                "id": "prepositions-f1",
+                "front": "Preposition of Time (specific point)",
+                "back": "At (e.g., at 7 o'clock, at noon)"
+            },
+            {
+                "id": "prepositions-f2",
+                "front": "Preposition of Place (larger areas)",
+                "back": "In (e.g., in a city, in a country)"
+            },
+            {
+                "id": "prepositions-f3",
+                "front": "Dependent Preposition 'afraid'",
+                "back": "Afraid of"
+            }
+        ]
+    },
+    "sentence-structure": {
+        "name": "Sentence Structure",
+        "quizzes": [
+            {
+                "id": "sentence-q1",
+                "question": "Which of the following is a simple sentence?",
+                "options": [
+                    "She sings, and he dances.",
+                    "Although it was raining, we went for a walk.",
+                    "The cat slept.",
+                    "When the bell rang, the students left."
+                ],
+                "correctAnswerIndex": 2
+            },
+            {
+                "id": "sentence-q2",
+                "question": "Identify the independent clause in: 'I studied hard because I wanted to pass.'",
+                "options": [
+                    "because I wanted to pass",
+                    "I studied hard",
+                    "wanted to pass",
+                    "I studied hard because"
+                ],
+                "correctAnswerIndex": 1
+            },
+            {
+                "id": "sentence-q3",
+                "question": "Which sentence is a compound sentence?",
+                "options": [
+                    "He ran quickly.",
+                    "She likes coffee, but he prefers tea.",
+                    "After she ate, she went to bed.",
+                    "The dog barked loudly."
+                ],
+                "correctAnswerIndex": 1
+            }
+        ],
+        "flashcards": [
+            {
+                "id": "sentence-f1",
+                "front": "Definition of a Clause",
+                "back": "A group of words containing a subject and a predicate."
+            },
+            {
+                "id": "sentence-f2",
+                "front": "Independent Clause Characteristics",
+                "back": "Can stand alone as a complete sentence; expresses a complete thought."
+            },
+            {
+                "id": "sentence-f3",
+                "front": "Coordinating Conjunctions (FANBOYS)",
+                "back": "For, And, Nor, But, Or, Yet, So (join independent clauses)"
+            }
+        ]
+    }
+}
